@@ -1,0 +1,47 @@
+:root {
+    --cor-principal: #c2185b;
+    --cor-escura: #880e4f;
+    --cor-clara: #fce4ec;
+}
+
+.navbar-salao {
+    background-color: var(--cor-escura);
+}
+
+.hero {
+    background: linear-gradient(135deg, var(--cor-principal), var(--cor-escura));
+    color: #fff;
+    padding: 100px 0;
+}
+
+.btn-salao {
+    background-color: var(--cor-principal);
+    border-color: var(--cor-principal);
+    color: #fff;
+}
+
+.btn-salao:hover {
+    background-color: var(--cor-escura);
+    border-color: var(--cor-escura);
+    color: #fff;
+}
+
+.secao-clara {
+    background-color: var(--cor-clara);
+}
+
+.card-servico {
+    border: none;
+    border-top: 4px solid var(--cor-principal);
+}
+
+.preco {
+    color: var(--cor-principal);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--cor-escura);
+    color: #fff;
+}
